@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { DashboardContext } from "./context";
+import Dashboard from "./components/Dashboard";
 
 export interface User {
   isSubscribed: boolean;
